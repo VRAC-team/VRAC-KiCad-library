@@ -1,0 +1,76 @@
+(footprint "LITEON_SMD4-2.54-4.6X6.5MM" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at -2.947317 0.508155 180) (layer "F.SilkS")
+      (effects (font (size 0.6402 0.6402) (thickness 0.15)))
+    (tstamp b3193d4b-63c7-4f72-8156-2631558059a6)
+  )
+  (fp_text value "LITEON_SMD4-2.54-4.6X6.5MM" (at 0.864574 -5.187424 180) (layer "F.Fab")
+      (effects (font (size 0.640719 0.640719) (thickness 0.15)))
+    (tstamp 56a450e1-4e4f-447a-8603-436766db5cf4)
+  )
+  (fp_line (start -2.3 -3.25) (end 2.3 -3.25)
+    (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp 25fce298-a307-4042-a9da-7c9a769533de))
+  (fp_line (start -2.3 3.25) (end -2.3 -3.25)
+    (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp 64950250-beb7-47b1-bd5c-c041801147ce))
+  (fp_line (start 2.3 -3.25) (end 2.3 3.25)
+    (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp 859517c6-1bda-4fd4-8357-3a7f950ea9c5))
+  (fp_line (start 2.3 3.25) (end -2.3 3.25)
+    (stroke (width 0.127) (type solid)) (layer "F.SilkS") (tstamp f34b903c-f0e4-4d09-ba91-99cfb2b41b6e))
+  (fp_circle (center -1.27 2.54) (end -0.635 2.54)
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.SilkS") (tstamp 166c4079-6d51-4ea1-b716-7dc7e4e2f51c))
+  (fp_poly
+    (pts
+      (xy -2.54488 -5.08)
+      (xy 2.54 -5.08)
+      (xy 2.54 5.08977)
+      (xy -2.54488 5.08977)
+    )
+
+    (stroke (width 0.01) (type solid)) (fill none) (layer "F.CrtYd") (tstamp 32836d89-00c1-4a7f-bd55-85125e857e90))
+  (fp_poly
+    (pts
+      (xy -1.87 -5.08)
+      (xy -0.67 -5.08)
+      (xy -0.67 -3.175)
+      (xy -1.87 -3.175)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab") (tstamp 31a58a94-079f-4edc-bda1-bbe7707154ab))
+  (fp_poly
+    (pts
+      (xy -1.87 3.3)
+      (xy -0.67 3.3)
+      (xy -0.67 5.08)
+      (xy -1.87 5.08)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab") (tstamp 8d6177dd-b154-485e-8089-fa236fbecc20))
+  (fp_poly
+    (pts
+      (xy 0.67 -5.08)
+      (xy 1.87 -5.08)
+      (xy 1.87 -3.175)
+      (xy 0.67 -3.175)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab") (tstamp a11ac6cc-5575-4fea-8c6c-efd2f21ed1b8))
+  (fp_poly
+    (pts
+      (xy 0.67 3.3)
+      (xy 1.87 3.3)
+      (xy 1.87 5.08)
+      (xy 0.67 5.08)
+    )
+
+    (stroke (width 0) (type solid)) (fill solid) (layer "F.Fab") (tstamp 2ed24661-e8b3-49e5-b453-542060a68b34))
+  (pad "1" smd rect (at -1.27 4.68 90) (size 1.6 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 28a2dc8c-00ff-4329-a7ff-9356c7b45acb))
+  (pad "2" smd rect (at 1.27 4.68 90) (size 1.6 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 50dba6d7-94c8-4443-913e-38dc98038672))
+  (pad "3" smd rect (at 1.27 -4.68 90) (size 1.6 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp c2323feb-d96f-4bb5-bd0d-3287beb7d46a))
+  (pad "4" smd rect (at -1.27 -4.68 90) (size 1.6 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp d8d3156d-db1d-4a0a-a055-046c12ea2426))
+  (model "../LITEON/SMD-PHOTOCOUPLER-5KV-LTV-816S_4P-4.6X6.5MM_.step"
+    (offset (xyz 0 0 2.5))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
+)
