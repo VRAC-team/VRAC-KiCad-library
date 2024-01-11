@@ -81,8 +81,8 @@
     (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 79a4e4d6-eaf1-4ec8-80ff-38cdb41d44d3))
   (pad "" thru_hole circle (at -5.5 -10) (size 1.4 1.4) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 9eecb55b-25ca-4206-a0d5-9c6d834865a4))
   (pad "" thru_hole circle (at 5.5 -10) (size 1.4 1.4) (drill 1) (layers "*.Cu" "*.Mask") (tstamp b8a68313-cd14-4a06-8213-437cc9450e9a))
-  (pad "1" thru_hole rect (at 2.5 0) (size 4 4) (drill 1.8) (layers "*.Cu" "*.Mask") (tstamp 3c08777f-6352-4a31-ad4f-79ad6b02212f))
-  (pad "2" thru_hole circle (at -2.5 0) (size 4 4) (drill 1.8) (layers "*.Cu" "*.Mask") (tstamp dcf9b550-d66d-4aed-b629-a4aaa009b914))
+  (pad "1" thru_hole rect (at 2.5 0) (size 4 4) (drill 2.3) (layers "*.Cu" "*.Mask") (tstamp 3c08777f-6352-4a31-ad4f-79ad6b02212f))
+  (pad "2" thru_hole circle (at -2.5 0) (size 4 4) (drill 2.3) (layers "*.Cu" "*.Mask") (tstamp dcf9b550-d66d-4aed-b629-a4aaa009b914))
   (model "../AMASS/XT30PW-M.STEP"
     (offset (xyz 0 4 0))
     (scale (xyz 1 1 1))
